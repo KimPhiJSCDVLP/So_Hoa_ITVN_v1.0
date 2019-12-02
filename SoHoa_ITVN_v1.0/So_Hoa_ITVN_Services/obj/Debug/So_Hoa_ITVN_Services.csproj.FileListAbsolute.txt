@@ -1,0 +1,14 @@
+C:\Users\ThinkPro\source\repos\SoHoa_ITVN_v1.0\So_Hoa_ITVN_Services\obj\Debug\So_Hoa_ITVN_Services.csprojAssemblyReference.cache
+C:\Users\ThinkPro\source\repos\SoHoa_ITVN_v1.0\So_Hoa_ITVN_Services\obj\Debug\So_Hoa_ITVN_Services.csproj.CoreCompileInputs.cache
+C:\Users\ThinkPro\source\repos\SoHoa_ITVN_v1.0\So_Hoa_ITVN_Services\bin\Debug\So_Hoa_ITVN_Services.exe.config
+C:\Users\ThinkPro\source\repos\SoHoa_ITVN_v1.0\So_Hoa_ITVN_Services\bin\Debug\So_Hoa_ITVN_Services.exe
+C:\Users\ThinkPro\source\repos\SoHoa_ITVN_v1.0\So_Hoa_ITVN_Services\bin\Debug\So_Hoa_ITVN_Services.pdb
+C:\Users\ThinkPro\source\repos\SoHoa_ITVN_v1.0\So_Hoa_ITVN_Services\bin\Debug\EntityFramework.dll
+C:\Users\ThinkPro\source\repos\SoHoa_ITVN_v1.0\So_Hoa_ITVN_Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ThinkPro\source\repos\SoHoa_ITVN_v1.0\So_Hoa_ITVN_Services\bin\Debug\EPPlus.dll
+C:\Users\ThinkPro\source\repos\SoHoa_ITVN_v1.0\So_Hoa_ITVN_Services\bin\Debug\EntityFramework.xml
+C:\Users\ThinkPro\source\repos\SoHoa_ITVN_v1.0\So_Hoa_ITVN_Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ThinkPro\source\repos\SoHoa_ITVN_v1.0\So_Hoa_ITVN_Services\bin\Debug\EPPlus.xml
+C:\Users\ThinkPro\source\repos\SoHoa_ITVN_v1.0\So_Hoa_ITVN_Services\obj\Debug\So_Hoa_ITVN_Services.csproj.CopyComplete
+C:\Users\ThinkPro\source\repos\SoHoa_ITVN_v1.0\So_Hoa_ITVN_Services\obj\Debug\So_Hoa_ITVN_Services.exe
+C:\Users\ThinkPro\source\repos\SoHoa_ITVN_v1.0\So_Hoa_ITVN_Services\obj\Debug\So_Hoa_ITVN_Services.pdb

@@ -1,0 +1,70 @@
+.select-menu {
+	width: 100%;
+}
+
+.select2-selection.select2-selection--single {
+	height: 35px;
+}
+
+.simple-pagination li > a, .simple-pagination li > span,
+.simple-pagination li > span.ellipse {
+	border: none;
+	background: #797979;
+	color: #fff;
+	padding: 0;
+	margin-right: 5px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	display: block;
+	font-size: 18px;
+	-webkit-transition: all ease-in-out .3s;
+	-moz-transition: all ease-in-out .3s;
+	-ms-transition: all ease-in-out .3s;
+	-o-transition: all ease-in-out .3s;
+	transition: all ease-in-out .3s;
+	font-weight: 700;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-shadow: 1px 1px 5px rgba(0,0,0,.75);
+}
+
+.simple-pagination li > a:focus, .simple-pagination li > a:hover,
+.simple-pagination li.active > span {
+	background: #008cb9;
+	color: #fff;
+}
+
+.simple-pagination > ul{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.message-notification {
+	z-index: 99;
+	position: fixed;
+	top: 77px;
+	width: 100%;
+}
+
+.message-notification .alert{
+	margin-bottom:0px;
+	padding: 10px;
+}
+
+body.fixed .message-notification{
+	top: 50px;
+}
+
+
+@media ( max-width :1200px) {
+	.message-notification {
+		top: 50px;
+	}
+}
+.section-title{
+	color:#017499;
+	margin-top : 30px;
+}

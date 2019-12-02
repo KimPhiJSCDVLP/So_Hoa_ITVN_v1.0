@@ -1,0 +1,124 @@
+﻿@{
+    Layout=null;
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="" rel="shortcut icon" type="image/x-icon">
+    <meta http-equiv="content-language" content="vi">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Đăng nhập</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="noodp,index,follow">
+    <meta name="revisit-after" content="1 days">
+    <meta property="og:image">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="article">
+    <link href="~/static/webreslogin/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/static/resources/css/boostrap.min.css" rel="stylesheet" />
+    <link href="~/static/resources/css/sweetalert.css" rel="stylesheet" />
+    <link href="~/static/resources/css/login.css" rel="stylesheet" />
+    <link href="~/static/webreslogin/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="~/static/resources/img/favicon.ico" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if IE]>
+        <style>
+            .img-cover{ position: relative;}
+            .img-cover img{ position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+        </style>
+    <![endif]-->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="~/static/webreslogin/js/all.min.js"></script>
+    <script src="~/static/resources/js/jquery-1.12.1.min.js"></script>
+    <script src="~/static/resources/js/boostrap.min.js"></script>
+    <script src="~/static/resources/js/sweetalert.min.js"></script>
+    <script>
+        $('#content').css({ "margin-top": -$('#content').height() / 2 });
+    </script>
+    <style>
+        .message-notification {
+            top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container" style="background: url('/static/resources/img/img2.jpg') 50% 50%/cover no-repeat #eee">
+        <div id="message-notification" class="message-notification">
+
+        </div>
+        <header>
+        </header>
+        <div id="content" style="margin-top: -195px;">
+
+            <form id="login-form" class="account-form" method="POST" action="/accounts/login/">
+                <input type="hidden" name="csrfmiddlewaretoken" value="0qp06M2OtrHSrnOntkYWcI9kcg4FcchU">
+                <h1>Đăng nhập</h1>
+
+
+                <div class="form-group ">
+                    <div class="input-wrap">
+                        <span class="icon user"></span>
+                        <input value="" id="id_login" maxlength="30" type="text" placeholder="Tên đăng nhập"
+                               class="form-control" name="login">
+                    </div>
+
+                </div>
+                <div class="form-group ">
+                    <div class="input-wrap">
+                        <span class="icon lock"></span>
+                        <input id="id_password" type="password" placeholder="Mật khẩu" class="form-control"
+                               name="password">
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" id="id_remember" name="id=&quot;remember&quot;"> Ghi nhớ người dùng
+                        </label>
+                    </div>
+                </div>
+
+
+                <input type="hidden" name="next" value="/">
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-blue btn-block text-uppercase"><b>Đăng nhập</b></button>
+                </div>
+
+
+                <div class="text-center col-xs-6">
+                    <span class="color-blue"><a href="/accounts/inactive/" title="">Kích hoạt</a></span>
+                </div>
+                <div class="text-center col-xs-6">
+                    <span class="text-center color-blue">
+                        <a href="/accounts/password/reset/" title="">
+                            Quên mật
+                            khẩu?
+                        </a>
+                    </span>
+                </div>
+            </form>
+
+        </div>
+        <footer><a href="/#" title="">Điều khoản sử dụng</a> | © Bản quyền nhóm IT Việt Nam | Version 1.0</footer>
+    </div>
+    <script>
+        $('#content').css({ "margin-top": -$('#content').height() / 2 });
+    </script>
+
+
+</body>
+
+</html>
